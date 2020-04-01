@@ -4,6 +4,17 @@
 
 Main dependencies: Python 2.7 and Pytorch-0.4.0 (https://pytorch.org/get-started/previous-versions/)
 
+To setup enviroment, install Anaconda and type the following command
+```
+######### create a new environment
+conda create -n myenv python=2.7
+conda activate myenv
+######### install the following packages
+conda install pytorch=0.4.1 cuda92 -c pytorch
+conda install -c anaconda cython
+conda install -c conda-forge matplotlib
+```
+
 
 #### 1. Download and compile some toolboxes from coco. Please make sure that you are using python 2.7
 ```bash
