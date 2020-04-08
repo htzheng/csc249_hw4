@@ -13,6 +13,7 @@ conda activate myenv
 conda install pytorch=0.4.0 cuda92 -c pytorch
 conda install -c anaconda cython
 conda install -c conda-forge matplotlib
+conda install -c cyclus java-jre
 ```
 
 
